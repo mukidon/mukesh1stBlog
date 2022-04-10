@@ -128,5 +128,14 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `bs3cfmeogyd2`,
+        accessToken: `IwyIBro5uMAEQNuTHVc2nf5XRUxGFNxUWInkSF2kFEk`,
+      },
+     },
+
+     `gatsby-plugin-netlify-cms`,
   ],
 }
